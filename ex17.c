@@ -10,10 +10,10 @@ int main(){
 	float raio, area;
 	setlocale(LC_ALL,"Portuguese");
 	
-	printf("ExercÌcio ¡rea Quadrado \nDigite o raio circular: ");
+	printf("Exerc√≠cio √Årea Quadrado \nDigite o raio circular: ");
 	scanf("%f", &raio);
 	area = calcularAreaCirculo(raio);
-	printf("A ·rea do cÌrculo de raio %.1f È igual a %.1f ", raio, area);
+	printf("A √°rea do c√≠rculo de raio %.1f √© igual a %.1f ", raio, area);
 	
 	return 0;
 }
