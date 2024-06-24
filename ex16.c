@@ -10,7 +10,7 @@ int main (){
 	float a, b;
 	setlocale (LC_ALL, "Portuguese");
 	
-	printf("Exercício Divisão \nDigite dois números inteiros: 1º e 2º\n");
+	printf("ExercÃ­cio DivisÃ£o \nDigite dois nÃºmeros inteiros: 1Âº e 2Âº\n");
 	scanf("%f e %f", &a, &b);
 	//div = divisao(num, num1);
 	printf("%.2f", divisao(a, b));
