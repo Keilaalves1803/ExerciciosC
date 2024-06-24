@@ -2,15 +2,15 @@
 #include <locale.h>
 
 void imprimeComTexto(int valor){
-	printf("Valor digitado � igual a %d", valor);
-	//não há retorno de valor
+	printf("Valor digitado é igual a %d", valor);
+	//nÃ£o hÃ¡ retorno de valor
 }
 
 int main(){
 	int valor;
 	setlocale(LC_ALL,"Portuguese");
 	
-	printf("Exerc�cio Imprime Valor \nDigite um valor: ");
+	printf("Exercício Imprime Valor \nDigite um valor: ");
 	scanf("%d", &valor);
 	imprimeComTexto(valor);
 		
