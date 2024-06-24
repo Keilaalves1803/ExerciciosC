@@ -9,15 +9,15 @@ int main(){
 	scanf("%d", &valor);
 	switch(valor){
 		case 0:
-			printf("Op鈬o 0 escolhida...");
+			printf("Opﾃｧﾄバ 0 escolhida...");
 			break;
 		case 1:
-			printf("Op鈬o 1 escolhida...");
+			printf("Opﾃｧﾄバ 1 escolhida...");
 			break;
 		case 2:
-			printf("Op鈬o 2 escolhida...");
+			printf("Opﾃｧﾄバ 2 escolhida...");
 			break;
 		default:
-			printf("Por favor entre com uma op鈬o entre 0 e 2: ");		
+			printf("Por favor entre com uma opﾃｧﾄバ entre 0 e 2: ");		
 	}
 }
